@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  font-style: italic;
+  padding: 50px 0;
+}
+h1{
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+header div {
+  width: 40%;
+  text-align: center;
+}
+header div input {
+  width: 75%;
+  margin-right: 10px;
+  background-color: var(--orange);
+  color: white;
+  outline: none;
+  font-size: 20px;
+   padding: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+header div input::placeholder {
+  color: rgb(254, 242, 164);
+}

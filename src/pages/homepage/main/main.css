@@ -1,0 +1,22 @@
+main{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:25px;
+  width: 80%;
+  margin: auto;
+}
+@media (max-width:700px) {
+main{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+}
+@media (min-width:700.02px )and ( max-width : 1050px ) {
+main{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+}
+.conact-me{
+  margin: 10px 0;
+}

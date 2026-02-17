@@ -1,0 +1,44 @@
+section{
+  height: 600px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  padding: 50px;
+  background-color: var(--orange);
+  display: flex;
+  gap: 25px;
+}
+.details-img {
+  min-width: 30%;
+}
+.details-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.details-content h2{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.details-content span{
+  background-color: orangered;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: large;
+}
+.details-content h3{
+  margin: 15px 0;
+}
+.details-content p{
+  line-height: 20px;
+  font-size: large;
+}
+@media ( max-width : 700px ) {
+section{
+  display:flex;
+  flex-direction: column;
+}
+}
+.conact-me-d{
+  background-color: var(--orange);
+}

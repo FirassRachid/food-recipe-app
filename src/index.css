@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --light-gray: rgba(117, 117, 117, 0.333);
+  --orange:rgb(241, 169, 36);
+  font-family: "Playwrite NZ Basic", cursive;;
+}

@@ -1,0 +1,37 @@
+.card-container {
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 7px 7px 8px rgba(117, 116, 116, 0.635);
+}
+
+.card-container img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.soory-h2{
+  margin-top: 25px;
+ text-align: center;
+ font-size: 30px;
+  width: 310%;
+}
+.p-b-div{
+  padding: 5px 0 10px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.p-b-div button {
+ background-color: var(--orange);
+ border: none;
+ padding: 10px;
+ border-radius: 20px;
+ margin-top: 8px;
+ color: white;
+ font-weight: 700;
+ font-size: 17px;
+ cursor: pointer;
+}
+
+
+
